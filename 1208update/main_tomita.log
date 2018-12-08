@@ -1,0 +1,544 @@
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.11.16)  8 DEC 2018 21:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main_tomita.tex
+(./main_tomita.tex
+pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./cimt_tomita.cls
+
+LaTeX Warning: You have requested document class `cimt_tomita',
+               but the document class provides `cimt'.
+
+Document Class: cimt 
+(/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jsbook.cls
+Document Class: jsbook 2018/03/11 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen118
+\jsc@mmm=\dimen119
+\jsc@smallskipamount=\skip41
+LaTeX Info: Redefining \rmfamily on input line 471.
+LaTeX Info: Redefining \sffamily on input line 474.
+LaTeX Info: Redefining \ttfamily on input line 477.
+LaTeX Info: Redefining \textmc on input line 481.
+LaTeX Info: Redefining \textgt on input line 483.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 545.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 736.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 736.
+\fullwidth=\dimen120
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 897.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 897.
+\c@part=\count83
+\c@chapter=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\jsc@tocl@width=\dimen121
+\@lnumwidth=\dimen122
+\bibindent=\dimen123
+(/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2017/02/24 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
+)
+\heisei=\count92
+)
+\@totalpage=\count93
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen126
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen127
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box42
+\strutbox@=\box43
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip11
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks17
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks18
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+
+
+Package amsfonts Warning: The 'psamsfonts' option is obsolete in AMSFonts v3.
+
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count106
+\float@exts=\toks21
+\float@box=\box44
+\@float@everytoks=\toks22
+\@floatcapt=\box45
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count107
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count108
+\c@ALC@line=\count109
+\c@ALC@rem=\count110
+\c@ALC@depth=\count111
+\ALC@tlm=\skip47
+\algorithmicindent=\skip48
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2014/10/28 v1.2c Show layout parameters
+\oneinch=\count112
+\cnt@paperwidth=\count113
+\cnt@paperheight=\count114
+\cnt@hoffset=\count115
+\cnt@voffset=\count116
+\cnt@textheight=\count117
+\cnt@textwidth=\count118
+\cnt@topmargin=\count119
+\cnt@oddsidemargin=\count120
+\cnt@evensidemargin=\count121
+\cnt@headheight=\count122
+\cnt@headsep=\count123
+\cnt@marginparsep=\count124
+\cnt@marginparwidth=\count125
+\cnt@marginparpush=\count126
+\cnt@footskip=\count127
+\fheight=\count128
+\ref@top=\count129
+\ref@hoffset=\count130
+\ref@voffset=\count131
+\ref@head=\count132
+\ref@body=\count133
+\ref@foot=\count134
+\ref@margin=\count135
+\ref@marginwidth=\count136
+\ref@marginpar=\count137
+\Interval=\count138
+\ExtraYPos=\count139
+\PositionX=\count140
+\PositionY=\count141
+\ArrowLength=\count142
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(./style.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count143
+\lst@gtempboxa=\box46
+\lst@token=\toks24
+\lst@length=\count144
+\lst@currlwidth=\dimen135
+\lst@column=\count145
+\lst@pos=\count146
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count147
+\lst@lineno=\count148
+\lst@maxwidth=\dimen138
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count149
+\lst@skipnumbers=\count150
+\lst@framebox=\box47
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(./jlisting.sty
+Package: jlisting 2006/02/20 0.2 (Thor)
+\lst@nextchar=\count151
+\lst@inputfile=\read1
+)) (./main_tomita.aux)
+\openout1 = `main_tomita.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+\c@lstlisting=\count152
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 43.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 43.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 43.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 43.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 43.
+ [1
+
+
+] [0
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 49.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 49.
+ (./jabst.tex)
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 55.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 55.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 55.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 55.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 55.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 55.
+ [1
+
+
+] [2
+
+]
+(./main_tomita.toc
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 28.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 28.
+ [3])
+\tf@toc=\write3
+\openout3 = `main_tomita.toc'.
+
+ [4]
+(./01_introduction_tomita.tex
+第1章
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
+[1
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 3.
+File: fig/kaigo.pdf Graphic file (type pdf)
+<fig/kaigo.pdf>
+
+Overfull \hbox (9.96996pt too wide) in paragraph at lines 8--9
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+File: fig/elastography2.pdf Graphic file (type pdf)
+<fig/elastography2.pdf>
+ [3]
+File: fig/curesystem.pdf Graphic file (type pdf)
+<fig/curesystem.pdf>
+File: fig/curedansou.pdf Graphic file (type pdf)
+<fig/curedansou.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: fig/three.pdf Graphic file (type pdf)
+<fig/three.pdf>
+[4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 64.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 64.
+[5] [6]) (./02_principle_tomita.tex [7]
+第2章
+[8
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 11.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 11.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 11.
+File: fig/hansha.pdf Graphic file (type pdf)
+<fig/hansha.pdf>
+ [9]
+File: fig/impeadance.pdf Graphic file (type pdf)
+<fig/impeadance.pdf>
+ [10] [11]
+File: fig/young.pdf Graphic file (type pdf)
+<fig/young.pdf>
+ [12] [13]
+File: fig/forkt.pdf Graphic file (type pdf)
+<fig/forkt.pdf>
+ [14]
+File: fig/ultradev.pdf Graphic file (type pdf)
+<fig/ultradev.pdf>
+File: fig/img_probe.pdf Graphic file (type pdf)
+<fig/img_probe.pdf>
+File: fig/probe3.pdf Graphic file (type pdf)
+<fig/probe3.pdf>
+ [15]
+File: fig/kaikougousei.pdf Graphic file (type pdf)
+<fig/kaikougousei.pdf>
+
+Overfull \hbox (9.96996pt too wide) in paragraph at lines 211--212
+ [] 
+ []
+
+[16]
+File: fig/RcvData_32.pdf Graphic file (type pdf)
+<fig/RcvData_32.pdf>
+File: fig/RcvData_light.pdf Graphic file (type pdf)
+<fig/RcvData_light.pdf>
+ [17]
+File: fig/RcvData_light.pdf Graphic file (type pdf)
+<fig/RcvData_light.pdf>
+File: fig/hourakusen.pdf Graphic file (type pdf)
+<fig/hourakusen.pdf>
+ [18]) (./03_relatedresearch_tomita.tex [19]
+第3章
+[20
+
+]) (./04_gazousaikousei_tomita.tex [21]
+第4章
+[22
+
+]
+File: fig/kashisoshiki.pdf Graphic file (type pdf)
+<fig/kashisoshiki.pdf>
+File: fig/daitai.pdf Graphic file (type pdf)
+<fig/daitai.pdf>
+File: fig/keikotsu.pdf Graphic file (type pdf)
+<fig/keikotsu.pdf>
+File: fig/hikotsu.pdf Graphic file (type pdf)
+<fig/hikotsu.pdf>
+ [23]) (./05_experiment_tomita.tex [24]
+第5章
+[25
+
+]
+File: fig/jikkendevice.pdf Graphic file (type pdf)
+<fig/jikkendevice.pdf>
+File: fig/motor.pdf Graphic file (type pdf)
+<fig/motor.pdf>
+ [26]
+File: fig/fantom.pdf Graphic file (type pdf)
+<fig/fantom.pdf>
+File: fig/led.pdf Graphic file (type pdf)
+<fig/led.pdf>
+File: fig/fanction.pdf Graphic file (type pdf)
+<fig/fanction.pdf>
+
+Overfull \hbox (4.98497pt too wide) in paragraph at lines 45--46
+ [] 
+ []
+
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 36--50
+[][]$[]$[] []$[]$[] 
+ []
+
+) [27] [28]
+No file main_tomita.bbl.
+(./reference_tomita.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+[]\OT1/cmr/m/n/10 http://www8.cao.go.jp/kourei/whitepaper/w-2018/html/zenbun/s1
+[]2[]2.html(\JY1/mc/m/n/10 参照
+ []
+
+[29
+
+
+]) [30] (./ack.tex [31
+
+]) [32] (./appendix_tomita.tex
+付録A
+) [33
+
+
+] (./main_tomita.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3951 strings out of 493281
+ 51423 string characters out of 6145040
+ 127794 words of memory out of 5000000
+ 7780 multiletter control sequences out of 15000+600000
+ 18341 words of font info for 86 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 33i,10n,42p,1684b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main_tomita.dvi (39 pages, 97612 bytes).
