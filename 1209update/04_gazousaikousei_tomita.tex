@@ -1,0 +1,104 @@
+\chapter{統計を用いた画像再構成手法の改善}
+\newpage
+\section{概要}
+本章では, 骨のような下肢組織の断層画像取得の際の精度の向上のための統計的処理の検討を述べる.
+\section{下肢組織の構造}
+下肢組織は, 大きく分けて上腿と下腿の2つに分けられる(\figref{kashisoshiki}). 上腿には大腿骨が, 下腿には脛骨および腓骨がある. 将来的に診断装置として本研究を活用する際には, 上腿あるいは下腿にせん断波を与えた際の筋組織などの挙動を観察し, その健康状態を評価することを想定しているが, 現段階では上腿あるいは下腿のどちらがより顕著にせん断波に対する機械的特性を反映させるかわかっていない. また, 上腿は骨が大腿骨1本のみであるため, 画像処理はより単純になるが, 将来的な診断装置としての発展を考えると, 下腿のように衣服を少しあげるだけで診断ができるというのは大きな利点になる. そこで, 本章では上腿および下腿の両方においてシミレーションを行う. 
+\\\ \ 下肢組織の大腿骨, 脛骨, 腓骨などのような骨が超音波CTで断層画像を取得した時のノイズの原因になる可能性がある. そこで, 本研究では, ノイズを軽減する画像再構成手法および画像処理を考案する. 
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=50mm]{fig/kashisoshiki.pdf}
+  \end{center}
+  \caption{下肢組織の構造}
+  \figlab{kashisoshiki}
+\end{figure}
+\section{シミュレーション}
+\subsection{シミュレーション系の設定}
+本研究は下肢組織を対象としているために\figref{daitai}, \figref{keikotsu},  \figref{hikotsu}に示すような3種のシミュレーション系を設定した. 計算領域は, 110mm$\times$110mmであり, グリッドサイズは0.21mm$\times$0.21mmである. また, 周波数は1.6MHz, 筋肉および皮下組織内の音速は1500m/s, 大腿骨, 脛骨および腓骨の音速は2700m/sとした(表\ref{simulation_settei}). 水中の音速は1500m/sであるが, まずはシミュレーションの条件を単純化するべく, 筋肉および皮下組織内の音速も1500m/sで近似している. そのため, 今回のシミュレーションでは水の中に骨のみがあるようなモデルでシミュレーションを行なった. \figref{daitai}, \figref{keikotsu},  \figref{hikotsu}を取り囲むように, 直径100mm, 圧電素子数1024のリング型アレイトランスデューサが設置されている. 
+\begin{figure}[H]
+ \begin{minipage}{0.325\hsize}
+  \begin{center}
+   \includegraphics[width=40mm]{fig/daitai.pdf}
+  \end{center}
+  \caption{大腿骨モデル}
+   \figlab{daitai}
+ \end{minipage}
+ \begin{minipage}{0.325\hsize}
+ \begin{center}
+  \includegraphics[width=40mm]{fig/keikotsu.pdf}
+ \end{center}
+  \caption{脛骨モデル}
+  \figlab{keikotsu}
+ \end{minipage}
+ \begin{minipage}{0.325\hsize}
+ \begin{center}
+  \includegraphics[width=40mm]{fig/hikotsu.pdf}
+ \end{center}
+  \caption{脛骨・腓骨モデル}
+  \figlab{hikotsu}
+ \end{minipage}
+\end{figure}
+\begin{table}[H]
+\centering
+\caption{シミュレーション系の設定}
+\label{simulation_settei}
+\begin{tabular}{|c|c|c|}
+\hline
+組織 & 直径[mm] & 計測周波数$f$[Hz]  \\ \hline
+筋肉 & - &      1500 \\ \hline
+皮下組織   & - &      1500\\ \hline
+大腿骨  & 30 &     2700 \\ \hline
+脛骨 & 30 &     2700 \\ \hline
+腓骨  & 7 &     2700  \\ \hline
+\end{tabular}
+\end{table}
+\subsection{k-Wave}
+本研究では, 筋肉や腱を模した実験系から得たRF信号を処理することで,再構成画像を得るが, 同時に画像再構成の解像度の向上を目指す. そこで, まずは超音波の伝播のシミュレーションを行う. シミュレーションで用いるソフトウェアはk-Waveで, MATLABのtoolboxである. k-Waveの基礎方程式は, %式の扱いをどうするか
+%連続の式((\ref{eq.renzoku})式)および波動方程式((\ref{eq.hadou})式)である. 
+\begin{equation}
+\label{eq.renzoku}
+\\\ \frac{\partial \textbf{u}}{\partial t} = - \frac{1}{\rho_0} \nabla p
+\end{equation}
+\begin{equation}
+\label{eq.renzoku}
+\\\ \frac{\partial \rho}{\partial t} = - \rho_0 \nabla p ・ \textbf{u}
+\end{equation}\begin{equation}
+\label{eq.renzoku}
+\\\ p = c^2 \rho
+\end{equation}
+計算手法は擬似スペクトル法である. 以下で擬似スペクトル法について詳しく説明する. 
+\subsection{k-space 擬似スペクトル法}
+擬似スペクトル法は, 波動方程式の解の1種である. 1次元の波動方程式を用いて, 擬似スペクトル法について説明する. 波動方程式を, (\ref{eq.risan})式を用いて離散化する. 
+\begin{equation}
+\label{eq.risan}
+\\\ \frac{{p_j} ^{n+1} - 2{p_j}^n + {p_j}^{n-1}} {\Delta t^2}= {c_0}^2 \frac{{p_{j+1}} ^n - 2{p_{j-1}}^n + p^n} {\Delta t^2}
+\end{equation}
+jは空間方向, nは時間方向のインデックスである. 安定条件は(\ref{eq.antei})式に示す.
+\begin{equation}
+\label{eq.antei}
+\\\ \frac{c_0 \Delta t}{\Delta x} \leqq 1
+\end{equation}
+また, 打ち切り誤差の補正を(\ref{eq.uchikiri})式で行う. ただし, $c_0$は音速, $k$は波数である.
+\begin{equation}
+\label{eq.uchikiri}
+\\\ c(k) = \dfrac{sinc \left(\dfrac{k \Delta x}{2} \right)}{sinc \left(\dfrac{c_0 k \Delta t}{2} \right)} c_0
+\end{equation}
+擬似スペクトル法は, 空間の離散化による誤差の低減のためにフーリエ変換を用いる. フーリエ変換では, 微分値の制度が差分法より優れており, グリッド数はより少なく済む. \cite{hayashisan[36]}, \cite{hayashisan[37]}. k-space擬似スペクトル法では, 時間方向の離散化による誤差の低減の補正項は(\ref{eq.kspacehosei})式で表せる.
+\begin{equation}
+\label{eq.kspacehosei}
+\\\ \kappa = sinc \left(\dfrac{c_0 k \Delta t}{2} \right)
+\end{equation}
+(\ref{eq.kspacehosei})式を用いて, (\ref{eq.risan})式および(\ref{eq.antei})式はそれぞれ, (\ref{eq.gijirisan})式, (\ref{eq.gijiuchikiri})式に書き直せる. 
+\begin{equation}
+\label{eq.gijirisan}
+\\\ \frac{{p_j} ^{n+1} - 2{p_j}^n + {p_j}^{n-1}} {\Delta t^2}= {c_0}(k)^2 \mathcal{F}^{-1}\{ {-\kappa}^2 {k_x}^2  \mathcal{F}(p^n)\} 
+\end{equation}
+\begin{equation}
+\label{eq.gijiuchikiri}
+\\\ c_0(k) = \frac{1}{sinc \left(\dfrac{c_0 k \Delta t}{2} \right)} c_0
+\end{equation}
+これにより, タイムステップは大きく向上した.
+\subsubsection{完全整合層}
+k-space擬似スペクトル法では, 計算領域を周期的なものと仮定している. そのため, 領域から出た出て行く波が反対側から入射するような現象が起こる. 完全整合層は, そのような問題を解決する吸収境界条件のことである\cite{hayashisan[38]}, \cite{hayashisan[39]}. 
+\subsubsection{スタッガードグリッド}
+スタッガードグリッドとは, 変数ごとの定義点を1/2グリッドずつずらす手法である. スタッガードグリッドを用いることで, k-space 擬似スペクトル法での正確性や安定性が向上する\cite{}.
