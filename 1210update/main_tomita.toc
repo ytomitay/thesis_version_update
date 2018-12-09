@@ -1,0 +1,50 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}
+\contentsline {section}{\numberline {1.1}研究背景}{2}
+\contentsline {section}{\numberline {1.2}超音波診断装置}{4}
+\contentsline {section}{\numberline {1.3}リング型アレイトランスデューサ}{5}
+\contentsline {section}{\numberline {1.4}研究目的}{6}
+\contentsline {section}{\numberline {1.5}本論文の構成}{7}
+\contentsline {chapter}{\numberline {第2章}基本原理}{8}
+\contentsline {section}{\numberline {2.1}概要}{9}
+\contentsline {section}{\numberline {2.2}超音波とは}{9}
+\contentsline {section}{\numberline {2.3}超音波の性質}{9}
+\contentsline {subsection}{\numberline {2.3.1}反射と屈折}{9}
+\contentsline {subsection}{\numberline {2.3.2}音響インピーダンス}{10}
+\contentsline {subsection}{\numberline {2.3.3}音速と体積弾性率}{11}
+\contentsline {subsection}{\numberline {2.3.4}散乱}{11}
+\contentsline {subsection}{\numberline {2.3.5}減衰}{11}
+\contentsline {section}{\numberline {2.4}エラストグラフィの原理}{12}
+\contentsline {subsection}{\numberline {2.4.1}生体組織の弾性と粘性\cite {elastography2}}{12}
+\contentsline {subsection}{\numberline {2.4.2}超音波エラストグラフィの原理\cite {siina_2}}{14}
+\contentsline {section}{\numberline {2.5}超音波プローブ}{15}
+\contentsline {subsection}{\numberline {2.5.1}開口合成法}{16}
+\contentsline {subsection}{\numberline {2.5.2}エコーデータ}{17}
+\contentsline {subsection}{\numberline {2.5.3}エコーデータの信号処理}{18}
+\contentsline {subsection}{\numberline {2.5.4}生体組織のひずみの測定}{19}
+\contentsline {chapter}{\numberline {第3章}先行研究}{20}
+\contentsline {section}{\numberline {3.1}概要}{21}
+\contentsline {section}{\numberline {3.2}超音波CTとせん断波に関する研究}{21}
+\contentsline {section}{\numberline {3.3}リング型アレイトランスデューサを用いた画像再構成手法}{21}
+\contentsline {chapter}{\numberline {第4章}統計を用いた画像再構成手法の改善}{22}
+\contentsline {section}{\numberline {4.1}概要}{23}
+\contentsline {section}{\numberline {4.2}下肢組織の構造}{23}
+\contentsline {section}{\numberline {4.3}シミュレーション}{24}
+\contentsline {subsection}{\numberline {4.3.1}シミュレーション系の設定}{24}
+\contentsline {subsection}{\numberline {4.3.2}k-Wave}{24}
+\contentsline {subsection}{\numberline {4.3.3}k-space 擬似スペクトル法}{25}
+\contentsline {subsubsection}{完全整合層}{26}
+\contentsline {subsubsection}{スタッガードグリッド}{26}
+\contentsline {subsection}{\numberline {4.3.4}下肢組織に対する超音波伝播シミュレーション}{26}
+\contentsline {subsection}{\numberline {4.3.5}画像再構成のアルゴリズム}{27}
+\contentsline {subsection}{\numberline {4.3.6}16の送信素子に対する輝度値マッピングと合成}{28}
+\contentsline {subsection}{\numberline {4.3.7}再構成画像の解析}{30}
+\contentsline {subsection}{\numberline {4.3.8}再構成画像の解像度の向上と統計的処理}{30}
+\contentsline {chapter}{\numberline {第5章}実験装置の設計}{34}
+\contentsline {section}{\numberline {5.1}概要}{35}
+\contentsline {section}{\numberline {5.2}加振装置}{35}
+\contentsline {subsection}{\numberline {5.2.1}振動数の設定}{35}
+\contentsline {subsection}{\numberline {5.2.2}ファントムの設定}{36}
+\contentsline {subsection}{\numberline {5.2.3}力学的条件の設定}{37}
+\contentsline {subsection}{\numberline {5.2.4}バリデーション}{37}
+\contentsline {chapter}{参考文献}{38}
+\contentsline {chapter}{\numberline {付録A}Verasonicsプログラム}{43}
