@@ -1,0 +1,57 @@
+\newcommand{\chapref}[1]{第 \ref{chap:#1} 章}
+\newcommand{\chaplab}[1]{\label{chap:#1}}
+
+%\newcommand{\secref}[1]{\ref{sec:#1}}
+\newcommand{\secref}[1]{\ref{sec:#1}節}
+\newcommand{\seclab}[1]{\label{sec:#1}}
+
+\newcommand{\appref}[1]{付録 \ref{app:#1}}
+\newcommand{\applab}[1]{\label{app:#1}}
+
+\newcommand{\enumref}[1]{\ref{enum:#1}}
+\newcommand{\enumlab}[1]{\label{enum:#1}}
+
+\newcommand{\figref}[1]{図 \ref{fig:#1}}
+\newcommand{\figlab}[1]{\label{fig:#1}}
+
+\newcommand{\tabref}[1]{表 \ref{tab:#1}}
+\newcommand{\tablab}[1]{\label{tab:#1}}
+
+\def\vector#1{\mbox{\boldmath $#1$}}
+
+\usepackage{listings,jlisting}
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+%  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+%  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+%  commentstyle=\color{purple}\ttfamily,
+%  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+\lstset{%
+  language={JavaScript},
+  basicstyle={\small},%
+  identifierstyle={\small},%
+  commentstyle={\small\itshape},%
+  keywordstyle={\small\bfseries},%
+  ndkeywordstyle={\small},%
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},%
+  numbers=left,%
+  xrightmargin=0zw,%
+  xleftmargin=3zw,%
+  numberstyle={\scriptsize},%
+  stepnumber=1,
+  numbersep=1zw,%
+  lineskip=-0.5ex,%
+  tabsize=3,
+  showstringspaces=false
+}
